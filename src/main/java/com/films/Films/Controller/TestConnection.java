@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController()
 @CrossOrigin(origins = "*", allowedHeaders = "*")
 @RequestMapping(path = "/test")
-public class TestConnectionBDController {
+public class TestConnection {
 
     @GetMapping("/mongo")
     public String testConnection() {

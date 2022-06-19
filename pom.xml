@@ -61,6 +61,17 @@
             <artifactId>mongodb-driver-sync</artifactId>
             <version>4.6.0</version>
         </dependency>
+        <!-- Micormeter core dependecy -->
+        <dependency>
+            <groupId>io.micrometer</groupId>
+            <artifactId>micrometer-core</artifactId>
+        </dependency>
+
+        <!-- Micrometer Prometheus registry -->
+        <dependency>
+            <groupId>io.micrometer</groupId>
+            <artifactId>micrometer-registry-prometheus</artifactId>
+        </dependency>
     </dependencies>
 
     <build>
